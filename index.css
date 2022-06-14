@@ -1,0 +1,90 @@
+html body {
+	margin: 0 auto;
+	background-color: 
+}
+
+.mainBlock {
+	width: 80%;
+	padding-top: 30px;
+	border:2px solid black;
+	border-radius: 5px;
+	text-align: center;
+
+	background-color: rgba(127, 165, 107, .6);
+}
+
+#butStart {
+	border: 5px solid green;
+	border-radius: 20px;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	margin: 20px;
+
+
+	font-weight: 700;
+	font-size: 20px;
+	color: green;
+
+	background-color: #C6C7FF;
+}
+
+#butPause {
+	border: 5px solid red;
+	border-radius: 20px;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	margin: 20px;
+
+	font-weight: 700;
+	font-size: 20px;
+	color: red;
+
+
+	background-color: #C6C7FF;
+}
+.textWindow {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+	margin: 0 auto;
+	margin-top: 15%;
+	width: 500px;
+	height: 200px;
+	border-radius: 40px;
+	background-color: rgba(255, 255, 255, 0.7);
+
+	font-size: 40px;
+}
+
+.modWindow {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(64, 64, 64, 0.8);
+}
+
+.buttOk {
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 10%;
+	text-align: center;
+	background-color: green; 
+}
+
+.buttCancel {
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 10%;
+	text-align: center;
+	background-color: red;
+}
